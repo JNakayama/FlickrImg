@@ -1,14 +1,13 @@
 # FlickrImg
 Flickrから画像を取得しslackへpost
 
-# python
-aws APIGateway → Lambdaでの実装
+## python
+aws APIGateway → Lambdaでの実装<br>
 Lambdaの環境変数に以下2点を設定
-
 ```
 flickrApiKey
 slackToken
 ```
 
-# GAS
+## GAS
 slackインテグレーションのoutgoing webhookでの実装 
